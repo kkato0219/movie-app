@@ -1,16 +1,77 @@
-# React + Vite
+# 🎬 Movie App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React movie search app built with the OMDb API.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- 🔍 Search movies
+- ⏱ Debounced search (better performance)
+- 🎥 Movie details page
+- ❤️ Add / remove favorites
+- 💾 Favorites saved in localStorage
+- 📄 Pagination (next / previous)
+- 🔀 Multi-page navigation (React Router)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠 Built With
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- JavaScript (ES6+)
+- CSS
+- OMDb API
+
+---
+
+## 📸 Screenshot
+
+![App Screenshot](src/assets/screenshot.png)
+
+---
+
+## ⚙️ Setup
+
+```bash
+git clone https://github.com/kkato0219/movie-app.git
+cd movie-app
+npm install
+```
+
+Create `.env` file:
+
+```
+VITE_OMDB_API_KEY=your_api_key_here
+```
+
+Run the app:
+
+```bash
+npm run dev
+```
+
+---
+
+## 🌐 Live Demo
+
+👉 (add your Netlify link here later)
+
+---
+
+## 📚 What I Learned
+
+- React component structure
+- Custom hooks
+- API fetching
+- State management
+- React Router
+- LocalStorage
+- Deployment (GitHub + Netlify)
+
+---
+
+## 👤 Author
+
+Kenichi Kato
