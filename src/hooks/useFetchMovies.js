@@ -6,7 +6,7 @@ function useFetchMovies(search, page) {
     const [message, setMessage] = useState("");
     const [totalResults, setTotalResults] = useState(0);
 
-    const apiKey = import.meta.env.VITE_OMDB_API_KEY;
+    const apiKey = "cbbe6a87";
 
     useEffect(() => {
         if (!search.trim()) {
