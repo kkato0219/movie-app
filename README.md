@@ -56,7 +56,7 @@ npm run dev
 
 ## 🌐 Live Demo
 
-👉 (add your Netlify link here later)
+👉 (https://sage-empanada-9fe8ef.netlify.app/)
 
 ---
 
